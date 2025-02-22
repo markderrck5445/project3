@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LWANGU SHILLA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</stlye>
+</head>
+<body>
+        <div class="header">
+            <div class="logo">
+                <img src="img/pic4.jpg.png">
+            </div>
+        
+            <ul id="navbar">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="poems.html">POEMS</a></li>
+                <li><a href="articles.html">ARTICLES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="login.html"><a href=""><i class="fa-solid fa-user"></i></a></a></li>
+                
+            </ul>
+            <h4><a href=""><i class="fa fa-user" aria-hidden="true"></i></a></h4>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox"/>
+                    <div class="slider"></div>
+                </label>
+                <p>Toggle light/dark</p>
+                </div>
+            </div>
+            <h2>contact</h2>
+
+
+        <script>
+            const toggleSwitch=document.getElementById('checkbox');
+            const currentTheme=localStorage.getItem('theme');
+            console.log('Current themefrom localStorage:',currentTheme);
+            
+            if(currentTheme){
+                document.body.classList.toggle('dark-mode',currentTheme==='dark');
+                toggleSwitch.checked=currentTheme==='dark';
+                console.log('Dark mode set:', currentTheme==='dark');
+            }
+            
+            toggleSwitch.addEventListener('change',function(){
+                if(toggleSwitch.checked) {
+                    document.body.classList.add('dark-mode');
+                    localStorage.setItem('theme','dark');
+                    console.log('dark=mode enabled');
+                }else{
+                    document.body.classList.remove('dark-mode');
+                    localStorage.setItem('theme','light');
+                    console.log('dark-mode disabled');
+                }
+            }); 
+            </script> 
+</body>
+</html>
