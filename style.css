@@ -25,13 +25,10 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* background-color: rgb(43, 226, 104); */
-    
+    justify-content: center; 
 }
 
 #navbar li{
-    /* background-color: rgb(43, 226, 104); */
     text-decoration: none;
     list-style: none;
     font-weight: bold;
