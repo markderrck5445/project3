@@ -13,8 +13,9 @@
     padding:10px;
     text-align: center;
     position: fixed;
-    background-color: rgb(43, 226, 104);
+    color: rgb(43, 226, 104);
     margin-left: 0px;
+    backdrop-filter: blur(10px);
     top: 0;
     left: 0%;
     z-index:10;
@@ -25,12 +26,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(43, 226, 104);
+    /* background-color: rgb(43, 226, 104); */
     
 }
 
 #navbar li{
-    background-color: rgb(43, 226, 104);
+    /* background-color: rgb(43, 226, 104); */
     text-decoration: none;
     list-style: none;
     font-weight: bold;
@@ -38,7 +39,7 @@
 
 #navbar li a{
     text-decoration: none;
-    color: black;
+    color: rgb(43, 226, 104);
     list-style: none;
     cursor: pointer;
     padding: 20px;
