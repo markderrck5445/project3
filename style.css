@@ -649,6 +649,12 @@ li{
     margin-top: 20px;
     border: 2px groove black;
    }
+
+   .col-5 h3{
+    position: absolute;
+    text-align: center;
+    margin-left: 7%;
+   }
    
    .dero p{
     margin-right: 80px;
