@@ -506,6 +506,12 @@ footer {
     color: rgb(131, 201, 25);
   }
 
+  
+.foot-logo img{
+    width: 120px;
+    height: 150px;
+  }
+
 
 /* pricing */ 
 
