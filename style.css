@@ -203,7 +203,7 @@ h4 a:hover{
     width: 100%;
     height: 100vh;
     background-position: center;
-    background-image: url(img/pic3.jpg);
+    background-image: linear-gradient(rgba(194, 194, 194, 0.7),rgba(4,9,30,0.7)),url("./img/pic3.jpg");
     background-size: cover;
 }
 
