@@ -45,6 +45,13 @@
     transition: 0.3s ease-in-out;
 }
 
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #fac301;
+    text-decoration: underline;
+}
+
 .a ul:active{
     background-color: rgb(131, 201, 25);
 }
