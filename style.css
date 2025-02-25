@@ -192,6 +192,7 @@ h4 a:hover{
     left: 200px;
     color: rgb(43, 226, 104);
     bottom: 350px;
+    text-shadow: 2px 2px 5px rgb(131, 201, 25);
     line-height: 22px;
     margin-left: -80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
