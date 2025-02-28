@@ -14,6 +14,7 @@
     align-items: center;
     padding:10px;
     text-align: center;
+    background-color:  #f8f9fa;
     position: fixed;
     color: rgb(131, 201, 25);
     margin-left: 0px;
@@ -200,22 +201,22 @@ h4 a:hover{
 }
 
 .col-1 h1 span{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(131, 201, 25);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.926);
 }
 
 
 .col-1 p{
-    width: 500pX;
+    width: 500px;
     text-align: justify;
     position: relative;
     left: 200px;
-    color: rgb(131, 201, 25);
+    color: white;
     bottom: 350px;
     text-shadow: 2px 2px 5px rgb(131, 201, 25);
     line-height: 22px;
     margin-left: -80px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Spartan', sans-serif;
     font-size: 17px;
 }
 
