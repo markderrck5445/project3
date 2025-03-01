@@ -194,7 +194,7 @@ h4 a:hover{
 
 .neema h5{
     top: 120%;
-    margin-left: 45%;
+    margin-left: 36%;
     color: black;
     position: absolute;
 }
@@ -202,6 +202,12 @@ h4 a:hover{
 .neema h5 a{
     color: rgb(131, 201, 25);
     text-decoration: none;
+}
+
+.neema h5 a:hover {
+    color: #fac301;
+    text-decoration: underline; 
+    transition: color 0.3s ease, text-decoration 0.3s ease; 
 }
 
 
@@ -797,6 +803,16 @@ footer {
     gap: 20px;
     justify-content: center;
     align-items: center;
+    margin: 30px 0;
+}
+
+.wiza{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0;   
 }
 
 .card {
