@@ -192,6 +192,18 @@ h4 a:hover{
     left: 0;
 }
 
+.neema h5{
+    top: 120%;
+    margin-left: 45%;
+    color: black;
+    position: absolute;
+}
+
+.neema h5 a{
+    color: rgb(131, 201, 25);
+    text-decoration: none;
+}
+
 
 .shilla{
     margin-left: 120px;
@@ -698,9 +710,13 @@ footer {
    }
    
    .dero p{
-    position: absolute;
-    top: 570%;
-   }
+        position: relative; /* Changed from absolute to relative */
+        margin-top: -90px; /* Adjusted margin for better spacing */
+        color: black; /* Ensure text color is set */
+        line-height: 1.5; /* Set line height for better readability */
+        text-align: justify; /* Justify text for better alignment */
+    }
+   
 
    .vb{
     margin-top: 30px;
@@ -771,7 +787,8 @@ footer {
 .hello img{
     width: 100px;
     height: 100px;
-    border-radius: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .wiz{
