@@ -17,7 +17,7 @@
     background-color:  #f8f9fa;
     position: fixed;
     color: rgb(131, 201, 25);
-    margin-left: 0px;
+    margin: px;
     backdrop-filter: blur(10px);
     top: 0;
     left: 0%;
@@ -729,11 +729,13 @@ footer {
    }
 
    /* Testimonial */  
-.card {
+.cardS {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: white;
+    border-radius: 16px;
     width: 300px;
     height: 400px;
     margin: 20px;
@@ -742,8 +744,22 @@ footer {
     padding: 20px;
     max-width: 320px;
   }
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    max-width: 320px;
+  }
   
-  .card .stars {
+  .cardS .stars {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -757,7 +773,7 @@ footer {
     width: 1.25rem;
   }
   
-.card .infos {
+.cardS .infos {
     margin-top: 1rem;
     text-align: center;
 
@@ -775,14 +791,14 @@ footer {
     color: rgba(107, 114, 128, 1);
   }
   
-  .card .author {
+  .cardS .author {
     margin-top: 10px;
     font-size: 0.875rem;
     line-height: 1.25rem;
     color: rgb(43, 226, 104);
   }
 
-  .card-container {
+  .cardS-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -794,7 +810,6 @@ footer {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    object-fit: cover;
 }
 
 .wiz{

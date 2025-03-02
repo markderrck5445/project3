@@ -1,25 +1,3 @@
-const toggleSwitch=document.getElementById('checkbox');
-const currentTheme=localStorage.getItem('theme');
-console.log('Current themefrom localStorage:',currentTheme);
-
-if(currentTheme){
-    document.body.classList.toggle('dark-mode',currentTheme==='dark');
-    toggleSwitch.checked=currentTheme==='dark';
-    console.log('Dark mode set:', currentTheme==='dark');
-}
-
-toggleSwitch.addEventListener('change',function(){
-    if(toggleSwitch.checked) {
-        document.body.classList.add('dark-mode');
-        localStorage.setItem('theme','dark');
-        console.log('dark=mode enabled');
-    }else{
-        document.body.classList.remove('dark-mode');
-        localStorage.setItem('theme','light');
-        console.log('dark-mode disabled');
-    }
-});
-
 function button(buttonId){
     const button = document.getElementById(buttonId);
     button.innerText = 'BOOKED';
