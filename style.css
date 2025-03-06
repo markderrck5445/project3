@@ -859,31 +859,30 @@ footer {
 
 /* about */
 body.contact-page {
-    background-image: url('path/to/your/background-image.jpg'); /* Replace with the path to your background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #fff; /* Set text color to white for better contrast */
+    color: #fff; 
 }
 
 .contact-container {
     max-width: 800px;
     margin: 100px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.9); 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #333; /* Dark text color for better readability */
+    color: #333; 
 }
 
 .contact-container h1 {
-    color: #333; /* Dark color for the heading */
+    color: #333; 
     margin-bottom: 20px;
 }
 
 .contact-container p {
-    color: #666; /* Light color for the text */
+    color: #666; 
     line-height: 1.6;
     margin-bottom: 20px;
 }
@@ -899,7 +898,7 @@ body.contact-page {
 
 .contact-form label {
     margin-bottom: 5px;
-    color: #333; /* Dark color for the labels */
+    color: #333; 
 }
 
 .contact-form input,
@@ -908,13 +907,13 @@ body.contact-page {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #fff; /* White background for inputs */
-    color: #333; /* Dark text color for inputs */
+    background-color: #fff; 
+    color: #333; 
 }
 
 .contact-form button {
-    background: #28a745; /* Green color for the button */
-    color: #fff; /* White text color for the button */
+    background: #28a745; 
+    color: #fff; 
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -923,7 +922,7 @@ body.contact-page {
 }
 
 .contact-form button:hover {
-    background: #218838; /* Darker green for hover effect */
+    background: #218838; 
 }
 
 .contact-info p {
@@ -931,7 +930,7 @@ body.contact-page {
 }
 
 .contact-info a {
-    color: #28a745; /* Green color for links */
+    color: #28a745; 
     text-decoration: none;
 }
 
