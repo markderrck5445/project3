@@ -66,6 +66,100 @@
     background-color: rgb(131, 201, 25);
     color: #fff;
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    #navbar.active {
+        display: flex;
+    }
+
+    .col-1 p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .contact-container {
+        width: 90%;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .about-container {
+        width: 90%;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .disk p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .content-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .cardS {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .small-container {
+        padding: 20px;
+    }
+
+    .col-3 img {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .col-5 img {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
 
 h4 a{
     list-style: none;
