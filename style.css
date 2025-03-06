@@ -938,3 +938,39 @@ body.contact-page {
 .contact-info a:hover {
     text-decoration: underline;
 }
+  
+/* about */
+
+.about-container {
+    max-width: 800px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1, .about-container h2 {
+    color: rgb(131, 201, 25);
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: rgb(131, 201, 25);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
