@@ -6,7 +6,6 @@
     <title>LWANGU SHILLA</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</stlye>
 </head>
 <body>
     <div class="header">
@@ -21,42 +20,7 @@
             <li><a href="contact.html">CONTACT</a></li>
             <li><a href="register.html"></a></li>
         </ul>
-
-        <div class="theme-switch-wrapper">
-            <label class="theme-switch" for="checkbox">
-                <input type="checkbox" id="checkbox"/>
-                <div class="slider"></div>
-            </label>
-            </div>
         </div>
-      
-       
 
-
-        <div class="div"></div>
-
-    <script>
-        const toggleSwitch=document.getElementById('checkbox');
-        const currentTheme=localStorage.getItem('theme');
-        console.log('Current themefrom localStorage:',currentTheme);
-        
-        if(currentTheme){
-            document.body.classList.toggle('dark-mode',currentTheme==='dark');
-            toggleSwitch.checked=currentTheme==='dark';
-            console.log('Dark mode set:', currentTheme==='dark');
-        }
-        
-        toggleSwitch.addEventListener('change',function(){
-            if(toggleSwitch.checked) {
-                document.body.classList.add('dark-mode');
-                localStorage.setItem('theme','dark');
-                console.log('dark=mode enabled');
-            }else{
-                document.body.classList.remove('dark-mode');
-                localStorage.setItem('theme','light');
-                console.log('dark-mode disabled');
-            }
-        }); 
-        </script> 
 </body>
 </html>
