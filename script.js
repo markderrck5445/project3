@@ -35,11 +35,6 @@ document.getElementById('button8').addEventListener('click',function(){
     button('button8');
 });
 
-
-const menuIcon = document.getElementById('menu-icon');
-const navbar = document.getElementById('navbar');
-
-menuIcon.addEventListener('click', () => {
-    navbar.classList.toggle('active');
+document.querySelector('.menu-icon').addEventListener('click', function() {
+    document.getElementById('navbar').classList.toggle('active');
 });
-
