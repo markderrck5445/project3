@@ -68,9 +68,13 @@
 }
 
 .logo img{
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     margin-left: 20px;
+}
+
+.logo{
+    margin-right: 50%;
 }
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -95,9 +99,9 @@
         display: flex;
     }
     .logo img {
-        width: 10%;
-        height: 10%;
-        margin-left: 0;
+        width: 50%;
+        height: 50%;
+        margin-left: 100px;
         margin-bottom: 10px;
     }
     
@@ -108,12 +112,16 @@
     }
 
     .col-1 p {
-        width: 70%;
-        margin: 0 auto;
-        text-align: left;
-        font-size: 16px;
+        width: 90% !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        text-align: left !important;
+        margin-left: -180px !important;
+        margin-top: -230px !important;
+        font-size: 15px !important;
+        padding: 0 5% !important;
+        box-sizing: border-box !important;
     }
-
     .login{
         display: none;
     }
