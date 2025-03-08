@@ -66,6 +66,12 @@
     background-color: rgb(131, 201, 25);
     color: #fff;
 }
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
     .header {
@@ -87,6 +93,18 @@
 
     #navbar.active {
         display: flex;
+    }
+    .logo img {
+        width: 10%;
+        height: 10%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        width: 20%;
     }
 
     .col-1 p {
