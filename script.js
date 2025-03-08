@@ -38,3 +38,13 @@ document.getElementById('button8').addEventListener('click',function(){
 document.querySelector('.menu-icon').addEventListener('click', function() {
     document.getElementById('navbar').classList.toggle('active');
 });
+
+
+const menuToggle = document.getElementById('menu-toggle');
+        const navbar = document.getElementById('navbar');
+        const header = document.querySelector('.header');
+
+        menuToggle.addEventListener('click', function() {
+            navbar.classList.toggle('active');
+            header.classList.toggle('expanded');
+        });
