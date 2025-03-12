@@ -169,6 +169,22 @@
         display: none;
     }
 
+    .title2 h1 {
+        position: absolute;
+        font-size: 20px;
+        margin-top: -95px;
+        margin-right: 20px;
+    }
+
+    .neema h5 {
+        position: absolute;
+        margin-top: -120px;
+        margin-right: 100px;
+        font-size: 16px;
+        /* padding: 0 10px; */
+    }
+
+
     .contact-container {
         width: 90%;
         margin: 50px auto;
